@@ -1,0 +1,383 @@
+body {
+  background-color: black;
+  font-family: "Baskervville", serif;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+/* NAVBAR CSS */
+
+#navbar {
+  color: white;
+  background-color: rgb(66, 66, 112);
+  border-radius: 22px;
+  position: fixed;
+  top: 3%;
+  left: 0;
+  right: 0;
+  width: 60%;
+  margin: 0 auto;
+  z-index: 10;
+}
+
+#navbar ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0px;
+}
+
+#navbar ul a {
+  color: white;
+  text-decoration: none;
+}
+
+#navbar ul li {
+  padding: 3px 40px;
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#navbar ul li:hover {
+  background-color: rgba(105, 100, 100, 0.6);
+  border-radius: 22px;
+  font-size: 20px;
+}
+
+/* HOME CSS */
+
+#home {
+  color: white;
+  font-family: "Baskervville", serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 110px;
+}
+
+#home img {
+  height: 400px;
+  margin-left: 200px;
+  height: 467px;
+  margin-left: 24px;
+}
+
+#home .container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+  z-index: 1;
+}
+
+#home #name {
+  font-size: 30px;
+  position: relative;
+  inset: 96px 0px 0px 273px;
+}
+
+#home #title-1 {
+  font-size: 60px;
+  position: relative;
+  inset: 99px 0px 0px 100px;
+}
+
+#home #plus {
+  font-size: 80px;
+  color: rgb(177, 70, 88);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: bolder;
+  font-size: 80px;
+  position: relative;
+  inset: 152px 0px 0px -135px;
+}
+
+#home #title-2 {
+  position: relative;
+  font-size: 60px;
+  position: relative;
+  inset: 168px 0px 0px -118px;
+}
+
+/* About */
+
+#about-container {
+  margin-top: 150px;
+}
+#about-container h1 {
+  color: white;
+  font-size: 60px;
+  font-family: "Baskervville", serif;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(49, 48, 48);
+  border-radius: 22px;
+  width: 60%;
+  margin: auto;
+}
+.about {
+  /* border: 2px solid white; */
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  font-family: "Baskervville", serif;
+  padding-top: 50px;
+}
+.about img {
+  height: 475px;
+  position: relative;
+  border-radius: 22px;
+}
+.about p {
+  color: black;
+  background-color: rgba(255, 254, 254, 0.5);
+  border-radius: 22px;
+  height: 350px;
+  width: 511px;
+  margin-left: 5%;
+  margin-top: 80px;
+  padding: 10px;
+  font-size: 29px;
+}
+
+/* Activites */
+
+#activities-container h1 {
+  color: white;
+  font-size: 60px;
+  font-family: "Baskervville", serif;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(49, 48, 48);
+  border-radius: 22px;
+  width: 60%;
+  margin: auto;
+}
+
+#activities-container {
+  margin: 150px 0px;
+}
+.activities {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.box {
+  height: 343px;
+  width: 343px;
+  margin: 100px 38px 38px 38px;
+  border-radius: 22px;
+}
+
+.activities #internship {
+  background-color: rgba(255, 254, 254, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.activities #internship img {
+  width: 250px;
+  /* border: 2px solid rgb(177, 154, 154); */
+  border-radius: 22px;
+  margin-top: 30px;
+}
+.activities #internship p {
+  color: black;
+  font-size: 20px;
+}
+
+.activities #lofa {
+  background-color: rgba(255, 254, 254, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.activities #lofa img {
+  width: 250px;
+  /*  border: 2px solid rgb(177, 154, 154); */
+  border-radius: 22px;
+  margin-top: 30px;
+}
+.activities #lofa p {
+  color: black;
+  font-size: 20px;
+}
+
+.activities #webdev {
+  background-color: rgba(255, 254, 254, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.activities #webdev img {
+  width: 250px;
+
+  /* border: 2px solid rgb(177, 154, 154); */
+  border-radius: 22px;
+  margin-top: 30px;
+}
+.activities #webdev p {
+  color: black;
+  font-size: 20px;
+}
+
+/* Contact Me */
+
+#contact-container h1 {
+  color: white;
+  font-size: 60px;
+  font-family: "Baskervville", serif;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(49, 48, 48);
+  border-radius: 22px;
+  width: 60%;
+  margin: auto;
+}
+
+.contact {
+  margin-top: 110px;
+  /* border: 2px solid white; */
+  width: 60%;
+  margin: 150px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contact-box {
+  height: 343px;
+  width: 343px;
+}
+
+.contact #box-1 {
+  background-color: white;
+}
+#box-1 img {
+  width: 200px;
+  border-radius: 100%;
+  border: 6px solid rgb(255, 0, 0);
+  display: flex;
+  margin: auto;
+  margin-top: 30px;
+}
+#box-1 p {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+
+#box-1 hr {
+  width: 150px;
+  height: 3px;
+  background-color: rgb(255, 0, 0);
+}
+
+.contact #box-2 {
+  background-color: rgb(255, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-box .item {
+  /* border: 2px solid black; */
+  background-color: white;
+  border-radius: 22px;
+}
+
+.contact-box .grid {
+  display: grid;
+  grid-auto-rows: 2fr;
+  grid-template-columns: 80px 200px;
+  grid-template-rows: 80px 80px 80px;
+  grid-gap: 5px;
+  
+}
+#Ig-icon img{
+  width: 60px;
+  /* padding: 10px; */
+}
+
+#Ig-link a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+#Ig-link a:hover{
+    cursor: pointer;
+    background-color: grey;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+#box-2 .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#lin-icon img{
+  width: 60px;
+  border-radius: 10px;
+}
+#lin-link a{
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+}
+#lin-link a:hover{
+  cursor: pointer;
+  background-color: grey;
+  border-radius: 10px;
+  padding: 5px;
+  color: white;
+}
+
+#e-icon img{
+  width: 60px;
+}
+#e-link a{
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+}
+#e-link a:hover{
+  cursor: pointer;
+  background-color: grey;
+  border-radius: 10px;
+  padding: 5px;
+  color: white;
+}
+
+
+
+
+.contact-box #box-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* FOOTER CSS */
+#footer {
+  color: white;
+  background-color: rgb(19, 19, 32);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 50px;
+}

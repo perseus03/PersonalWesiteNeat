@@ -1,0 +1,14 @@
+#home img {
+    margin-right: 200px;
+    height: 320px;
+}
+
+
+#home #name{
+    inset: 92px 0px 0px 273px;
+    width: 171px;
+}
+
+#navbar ul li {
+    padding: 3px 25px;
+}
