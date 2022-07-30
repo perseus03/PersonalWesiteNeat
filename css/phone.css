@@ -1,0 +1,206 @@
+
+/* NAVBAR */
+
+#navbar {
+  width: 70%;
+}
+#navbar ul li {
+  font-size: 10px;
+  padding: 3px 10px;
+  
+}
+#navbar ul li a {
+  font-size: 10px;
+}
+#navbar ul{
+  padding: 0;
+}
+#navbar ul li:hover {
+  font-size: 10px;
+}
+
+
+
+
+/* HOME */
+#home {
+  flex-wrap: wrap;
+}
+
+#home .container {
+  width: 100%;
+}
+
+#home img {
+  height: 358px;
+    position: relative;
+    inset: -197px 0px 0px 4px;
+    opacity: 0.5;
+    margin: 0;
+}
+#home #name {
+  font-size: 14.7px;
+    position: relative;
+    inset: -6px 0px 0px 114px;
+}
+
+#home #title-1 {
+  font-size: 30px;
+  position: relative;
+  inset: 17px 0px 0px 15px;
+}
+
+#home #plus {
+  font-size: 40px;
+  position: relative;
+  inset: 51px 0px 0px -53px;
+}
+
+#home #title-2 {
+  font-size: 30px;
+  position: relative;
+  inset: 88px 0px 0px -129px;
+}
+
+
+
+
+/* ABOUT */
+.about {
+  flex-wrap: wrap;
+}
+
+#about-container {
+  margin-top: -121px;
+}
+
+#about-container h1 {
+  font-size: 30px;
+}
+
+.about img {
+  height: 237.5px;
+}
+
+.about p {
+  height: 175px;
+  width: 255.5px;
+  font-size: 14.5px;
+  margin-top: 35px;
+}
+
+
+
+
+
+
+/* ACTIVITIES */
+.activities {
+  flex-wrap: wrap;
+}
+
+#activities-container{
+  margin: 80px 0px;
+}
+
+#activities-container h1 {
+  font-size: 30px;
+}
+
+.box {
+  height: 171.5px;
+  width: 171.5px;
+  margin: 50px 38px 38px 38px;
+}
+
+.activities #internship img {
+  width: 125px;
+  margin-top: 15px;
+}
+
+.activities #internship p {
+  font-size: 10px;
+}
+
+.activities #lofa img {
+  width: 125px;
+  margin-top: 15px;
+}
+
+.activities #lofa p {
+  font-size: 10px;
+}
+
+.activities #webdev img {
+  width: 125px;
+  margin-top: 15px;
+}
+
+.activities #webdev p {
+  font-size: 10px;
+}
+
+
+
+
+/* CONTACT */
+
+#contact-container h1 {
+  font-size: 30px;
+}
+.contact{
+  margin: 82px auto;
+}
+.contact-box {
+  height: 171.5px;
+  width: 171.5px;
+}
+#box-1 img {
+  width: 100px;
+  margin: 20px;
+}
+#box-1 p {
+  font-size: 10px;
+  position: relative;
+  inset: -14px 0px 0px 0px;
+}
+
+#box-1 hr {
+  width: 75px;
+  height: 1.5px;
+  position: relative;
+    inset: -18px 0px 0px 0px;
+}
+
+.contact-box .grid {
+  grid-auto-rows: 1fr;
+  grid-template-columns: 40px 80px;
+  grid-template-rows: 40px 40px 40px;
+  grid-gap: 2.5px;
+  margin: 10px;
+}
+
+#Ig-icon img{
+  width: 30px;
+  /* padding: 10px; */
+}
+
+#Ig-link a{
+    font-size: 12.5px;
+}
+
+#lin-icon img{
+  width: 30px;
+}
+
+#lin-link a{
+  font-size: 12.5px;
+}
+
+#e-icon img{
+  width: 30px;
+}
+
+#e-link a{
+  font-size: 12.5px;
+}
