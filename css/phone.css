@@ -28,38 +28,58 @@
 }
 
 #home .container {
+  /* width: 100%; */
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
 }
 
 #home img {
   height: 358px;
     position: relative;
-    inset: -197px 0px 0px 4px;
+    inset: -250px 0px 0px 0px;
     opacity: 0.5;
     margin: 0;
+    z-index: -100;
 }
 #home #name {
-  font-size: 14.7px;
+  font-size: 16px;
+  margin: 0px;
+  position: static;
+  width: fit-content  ;
+  /* font-size: 14.7px;
     position: relative;
-    inset: -6px 0px 0px 114px;
+    inset: -6px 0px 0px 114px; */
 }
 
 #home #title-1 {
   font-size: 30px;
+    margin: 0px;
+    position: static;
+  /* font-size: 30px;
   position: relative;
-  inset: 17px 0px 0px 15px;
+  inset: 17px 0px 0px 15px; */
 }
 
 #home #plus {
   font-size: 40px;
+    margin: 0px;
+    position: static;
+ /*  font-size: 40px;
   position: relative;
-  inset: 51px 0px 0px -53px;
+  inset: 51px 0px 0px -53px */;
 }
 
 #home #title-2 {
   font-size: 30px;
+    margin: 0px;
+    position: static;
+  /* font-size: 30px;
   position: relative;
-  inset: 88px 0px 0px -129px;
+  inset: 88px 0px 0px -129px; */
 }
 
 
