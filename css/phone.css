@@ -103,10 +103,10 @@
 }
 
 .about p {
-  height: 175px;
-  width: 255.5px;
-  font-size: 14.5px;
-  margin-top: 35px;
+  height: auto;
+    width: 80%;
+    font-size: 14.5px;
+    margin-top: 35px;;
 }
 
 
