@@ -371,6 +371,7 @@ body {
 
 /* FOOTER CSS */
 #footer {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;;
   color: white;
   background-color: rgb(19, 19, 32);
   display: flex;
